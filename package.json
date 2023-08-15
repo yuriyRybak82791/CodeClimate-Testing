@@ -30,7 +30,7 @@
     "translate": "wp-pot --src '**/**/**/*.php' --dest-file 'languages/wordpress-webpack.pot' --package '{{the-project-name}}' --domain '{{the-project-text-domain}}' --last-translator '{{author_name}} <{{author_email}}>' --team '{{author_name}} <{{author_email}}>' --bug-report '{{author_url}}'",
     "pre-push": "yarn prod",
     "lint-staged": "yarn lint-staged",
-    "coverage": "nyc tape -r ts-node/register/transpile-only test/*.test.ts"
+    "coverage": "nyc tape -r ts-node/register/transpile-only *.ts"
   },
   "babel": {
     "extends": "./webpack/babel.config.js"
