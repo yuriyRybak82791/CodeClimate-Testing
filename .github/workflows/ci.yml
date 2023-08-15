@@ -28,7 +28,6 @@ jobs:
         node-version: '16.15.0'
     - run: npm install -g yarn
     - run: yarn install
-    - run: yarn build
     - uses: paambaati/codeclimate-action@v5
       env:
         CC_TEST_REPORTER_ID: 67623d19ae2b8a56286a7037297e1d9ce4420ddbafda98e58e9b18a52352554c
