@@ -6,11 +6,11 @@
   "main": "lib/main.js",
   "scripts": {
       "build": "tsc",
-      "test:only": "tape -r ts-node/register/transpile-only test/*.test.ts",
+      "test:only": "tape -r ts-node/register/transpile-only *.ts",
       "test": "npm run test:only -- --no-only",
-      "coverage": "nyc tape -r ts-node/register/transpile-only test/*.test.ts",
-      "format": "prettier --write src/*.ts test/*.ts",
-      "format:check": "prettier --check src/*.ts test/*.ts"
+      "coverage": "nyc tape -r ts-node/register/transpile-only *.ts",
+      "format": "prettier --write src/*.ts *.ts",
+      "format:check": "prettier --check src/*.ts *.ts"
   },
   "repository": {
       "type": "git",
