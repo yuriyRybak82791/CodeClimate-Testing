@@ -38,7 +38,6 @@ function ready() {
         const TARGET: any = event.target;
 
         if (!ROLE) return;
-
         switch (ROLE) {
             // show/hide menu
             case 'menu-action':
