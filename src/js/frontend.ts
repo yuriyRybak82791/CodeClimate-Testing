@@ -24,7 +24,7 @@ function ready() {
 
     /* Tab Navigation */
     tabsNavigation('.js-tab-name', '.js-tab');
-
+ 
     /**
      * Add global handler for click event
      * The main idea - to improve site performance
